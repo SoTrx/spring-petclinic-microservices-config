@@ -81,5 +81,5 @@ spring:
     data: classpath*:db/mysql/data.sql
     url: jdbc:mysql://springappsmysqla6c2a8.mysql.database.azure.com:3306/petclinic?useSSL=true&requireSSL=false
     username: myadmin@springappsmysqla6c2a8
-    password: admin01!!
+    password: admin01SQL_SERVER_NAME=springappsmysqla6c2a8
     initialization-mode: ALWAYS
