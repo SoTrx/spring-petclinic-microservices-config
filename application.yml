@@ -79,7 +79,7 @@ spring:
   datasource:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
-    url: jdbc:mysql://localhost:3306/petclinic?useSSL=false
-    username: root
-    password: petclinic
+    url: jdbc:mysql://springappsmysqla6c2a8.mysql.database.azure.com:3306/petclinic?useSSL=true
+    username: myadmin@springappsmysqla6c2a8
+    password: admin01!!
     initialization-mode: ALWAYS
